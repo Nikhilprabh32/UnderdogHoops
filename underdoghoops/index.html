@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07080f">
+
+  <title>Affordable Basketball Coaching & Free Youth Camps in Frisco, TX | Underdog Hoops</title>
+  <meta name="description" content="Affordable one-on-one basketball coaching and 4 free youth camps every month in Frisco, Texas. A portion of every fee is donated to Good Sports.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Underdog Hoops | Affordable Basketball Coaching in Frisco, TX">
+  <meta property="og:description" content="Affordable coaching and 4 free monthly camps that build skills, confidence, and community—while giving back to Good Sports.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.com/">
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/underdog-logo.png">
+
+  <link rel="icon" href="underdog-logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    * { margin: 0; }
+
+    :root {
+      --bg: #07080f;
+      --bg-2: #0d0e1c;
+      --bg-3: #14162b;
+      --orange: #ff6b1a;
+      --orange-light: #ff9455;
+      --white: #f8f8ff;
+      --gray: #a5adc1;
+      --muted: #747e96;
+      --border: rgba(255,255,255,.09);
+      --shadow: 0 22px 60px rgba(0,0,0,.32);
+      --display: "Bebas Neue", sans-serif;
+      --body: "Outfit", sans-serif;
+      --max: 1120px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      min-width: 320px;
+      font-family: var(--body);
+      color: var(--white);
+      background: var(--bg);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body.menu-open { overflow: hidden; }
+    img { display: block; max-width: 100%; }
+
+    /*
+      ============================================================
+      IMAGE FALLBACK STYLES
+      Every image in the HTML is marked with: 🟠 IMAGE SLOT
+      If a file is missing, visitors see a clean instruction block
+      instead of a broken-image icon.
+      ============================================================
+    */
+    .image-slot {
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 35%, rgba(255,107,26,.18), transparent 40%),
+        var(--bg-3);
+    }
+    .image-slot > img { width: 100%; height: 100%; object-fit: cover; }
+    .image-fallback {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: .35rem;
+      padding: 1rem;
+      text-align: center;
+      border: 2px dashed rgba(255,107,26,.65);
+      color: var(--gray);
+      background: rgba(13,14,28,.96);
+    }
+    .image-fallback[hidden] { display: none; }
+    .image-fallback strong {
+      color: var(--orange-light);
+      font-size: .72rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .image-fallback code {
+      color: var(--white);
+      font-size: .72rem;
+      overflow-wrap: anywhere;
+    }
+    .nav-logo-slot { width: 44px; height: 44px; flex: 0 0 44px; border-radius: 50%; }
+    .nav-logo-slot > img { object-fit: contain; }
+    .nav-logo-slot .image-fallback { padding: 0; border-radius: 50%; }
+    .nav-logo-slot .image-fallback strong { font-family: var(--display); font-size: 1rem; letter-spacing: .04em; }
+    .hero-logo-slot {
+      width: clamp(130px, 17vw, 190px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      margin-bottom: 1.6rem;
+      filter: drop-shadow(0 0 35px rgba(255,107,26,.34));
+    }
+    .hero-logo-slot > img { object-fit: contain; }
+    .free-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: .45rem;
+      margin-top: 1.25rem;
+      padding: .5rem .85rem;
+      border: 1px solid rgba(255,107,26,.45);
+      border-radius: 999px;
+      color: var(--orange-light);
+      background: rgba(255,107,26,.08);
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .free-badge {
+      display: inline-flex;
+      margin: .9rem 0 0;
+      padding: .35rem .65rem;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--orange);
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .affordable-badge {
+      display: inline-flex;
+      margin: .9rem 0 0;
+      padding: .35rem .65rem;
+      border-radius: 999px;
+      color: var(--orange-light);
+      background: transparent;
+      border: 1px solid rgba(255,107,26,.55);
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    button, input, select, textarea { font: inherit; }
+    a { color: inherit; }
+    section { padding: 6.5rem 4%; scroll-margin-top: 84px; }
+
+    .container { width: min(100%, var(--max)); margin-inline: auto; }
+    .eyebrow {
+      color: var(--orange);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      margin-bottom: .7rem;
+    }
+    .section-title {
+      font-family: var(--display);
+      font-size: clamp(2.8rem, 6vw, 4.8rem);
+      line-height: .96;
+      letter-spacing: .035em;
+    }
+    .section-copy { color: var(--gray); max-width: 640px; margin-top: 1rem; }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--orange-light);
+      outline-offset: 4px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: .85rem 1.65rem;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: .075em;
+      font-size: .84rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease, color .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button-primary { background: var(--orange); color: white; }
+    .button-primary:hover { background: var(--orange-light); }
+    .button-secondary { border-color: rgba(255,255,255,.24); background: transparent; }
+    .button-secondary:hover { border-color: var(--orange); color: var(--orange-light); }
+
+    /* Navigation */
+    .site-header {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 1000;
+      padding: 1rem 4%;
+      transition: background .25s ease, box-shadow .25s ease, backdrop-filter .25s ease;
+    }
+    .site-header.scrolled {
+      background: rgba(7,8,15,.91);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 1px 0 var(--border);
+    }
+    .nav-inner {
+      width: min(100%, 1240px);
+      margin-inline: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .7rem;
+      text-decoration: none;
+    }
+    .brand img { width: 44px; height: 44px; object-fit: contain; border-radius: 50%; }
+    .brand span { font-family: var(--display); font-size: 1.35rem; letter-spacing: .07em; }
+    .nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; padding: 0; }
+    .nav-links a {
+      color: rgba(248,248,255,.76);
+      text-decoration: none;
+      font-size: .8rem;
+      font-weight: 600;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+    .nav-links a:hover { color: var(--orange-light); }
+    .nav-links .nav-button { color: white; background: var(--orange); padding: .55rem 1.15rem; border-radius: 4px; }
+    .menu-button {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border: 0;
+      background: transparent;
+      color: white;
+      cursor: pointer;
+    }
+    .menu-button span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      margin: 5px auto;
+      background: currentColor;
+      border-radius: 999px;
+      transition: transform .25s ease, opacity .25s ease;
+    }
+    .menu-button[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .menu-button[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+    .menu-button[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Hero */
+    .hero {
+      min-height: 100svh;
+      padding: 0;
+      display: grid;
+      grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+      overflow: hidden;
+      background: var(--bg);
+    }
+    .hero-copy {
+      min-height: 100svh;
+      padding: 8rem 7% 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero-copy::after {
+      content: "";
+      position: absolute;
+      top: 8%;
+      right: 0;
+      bottom: 8%;
+      width: 1px;
+      background: linear-gradient(transparent, var(--orange), transparent);
+    }
+    .hero-logo { width: 100%; height: 100%; object-fit: contain; }
+    .hero-title {
+      font-family: var(--display);
+      font-size: clamp(4.3rem, 8vw, 7rem);
+      line-height: .83;
+      letter-spacing: .035em;
+      margin: .45rem 0 1.4rem;
+    }
+    .hero-title span { color: var(--orange); }
+    .hero-lead { color: var(--gray); max-width: 520px; }
+    .hero-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: .9rem; margin-top: 2rem; }
+
+    .hero-art {
+      position: relative;
+      min-height: 100svh;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 50% 20%, rgba(255,123,28,.2), transparent 28%),
+        radial-gradient(circle at 50% 100%, rgba(255,76,0,.14), transparent 42%),
+        linear-gradient(145deg, #090a17, #03040a);
+    }
+    .hero-art::before,
+    .hero-art::after {
+      content: "";
+      position: absolute;
+      top: -30%;
+      width: 260px;
+      height: 150%;
+      background: linear-gradient(90deg, transparent, rgba(255,186,88,.1), transparent);
+      transform: rotate(16deg);
+      filter: blur(12px);
+    }
+    .hero-art::before { left: 18%; }
+    .hero-art::after { right: 6%; transform: rotate(-18deg); }
+    .court {
+      width: min(78%, 480px);
+      aspect-ratio: .78;
+      position: relative;
+      border: 2px solid rgba(255,107,26,.8);
+      border-radius: 8px;
+      box-shadow: 0 0 28px rgba(255,107,26,.18), inset 0 0 35px rgba(255,107,26,.06);
+      transform: perspective(900px) rotateX(7deg);
+    }
+    .court::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      border-top: 2px solid rgba(255,107,26,.6);
+    }
+    .court::after {
+      content: "";
+      position: absolute;
+      width: 23%;
+      aspect-ratio: 1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border: 2px solid rgba(255,107,26,.7);
+      border-radius: 50%;
+      box-shadow: 0 0 16px rgba(255,107,26,.18);
+    }
+    .key {
+      position: absolute;
+      left: 31%;
+      width: 38%;
+      height: 22%;
+      border: 2px solid rgba(255,107,26,.58);
+    }
+    .key::after {
+      content: "";
+      position: absolute;
+      width: 70%;
+      aspect-ratio: 1;
+      left: 15%;
+      border: 2px solid rgba(255,107,26,.52);
+      border-radius: 50%;
+    }
+    .key-top { top: -2px; border-top: 0; }
+    .key-top::after { bottom: -35%; }
+    .key-bottom { bottom: -2px; border-bottom: 0; }
+    .key-bottom::after { top: -35%; }
+    .ball {
+      position: absolute;
+      right: 10%;
+      top: 15%;
+      width: 72px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        linear-gradient(25deg, transparent 47%, rgba(35,12,1,.6) 48% 51%, transparent 52%),
+        linear-gradient(155deg, transparent 47%, rgba(35,12,1,.6) 48% 51%, transparent 52%),
+        radial-gradient(circle at 34% 28%, #ffad61, #e65b00 58%, #783000);
+      box-shadow: 0 18px 35px rgba(0,0,0,.4), 0 0 28px rgba(255,91,0,.3);
+      animation: float 5s ease-in-out infinite;
+    }
+    .hero-badge {
+      position: absolute;
+      left: 7%;
+      bottom: 9%;
+      padding: 1rem 1.3rem;
+      border: 1px solid rgba(255,107,26,.35);
+      border-radius: 8px;
+      background: rgba(13,14,28,.84);
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+    }
+    .hero-badge small { display: block; color: var(--orange-light); text-transform: uppercase; letter-spacing: .14em; font-size: .62rem; font-weight: 700; }
+    .hero-badge strong { display: block; font-family: var(--display); font-size: 2rem; line-height: 1.1; margin-top: .25rem; }
+    .hero-badge span { color: var(--gray); font-size: .72rem; }
+
+    @keyframes float { 50% { transform: translateY(-18px) rotate(7deg); } }
+
+    /* Stats */
+    .stats { background: var(--orange); padding: 1.25rem 4%; }
+    .stats-inner { width: min(100%, 900px); margin-inline: auto; display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
+    .stat { text-align: center; }
+    .stat strong { display: block; font-family: var(--display); font-size: 2.2rem; line-height: 1; }
+    .stat span { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.82); }
+
+    /* Coach */
+    .coach-section { background: var(--bg-2); }
+    .coach-grid { display: grid; grid-template-columns: minmax(260px, 360px) 1fr; gap: clamp(3rem, 7vw, 6rem); align-items: center; }
+    .photo-frame { position: relative; }
+    .photo-frame::before { content: ""; position: absolute; inset: -13px 13px 13px -13px; border: 2px solid var(--orange); border-radius: 7px; }
+    .coach-image-slot { position: relative; width: 100%; aspect-ratio: 3/4; border-radius: 7px; box-shadow: var(--shadow); }
+    .coach-image-slot > img { object-fit: cover; }
+    .photo-label { position: absolute; right: -12px; bottom: -15px; background: var(--orange); padding: .55rem .9rem; border-radius: 4px; font-family: var(--display); letter-spacing: .07em; }
+    .coach-copy p:not(.eyebrow) { color: var(--gray); margin-top: 1.25rem; }
+    .highlights { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; margin-top: 2rem; }
+    .highlight { padding: 1rem 1.1rem; border: 1px solid var(--border); border-left: 3px solid var(--orange); border-radius: 6px; background: var(--bg-3); }
+    .highlight strong { display: block; color: var(--orange-light); font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; margin-bottom: .25rem; }
+    .highlight span { color: var(--gray); font-size: .88rem; }
+
+
+
+    /* Community Mission */
+    .mission-section { background: var(--bg); }
+    .mission-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: clamp(3rem, 7vw, 6rem);
+      align-items: center;
+    }
+    .mission-copy p:not(.eyebrow) { color: var(--gray); margin-top: 1.2rem; }
+    .mission-points { display: grid; gap: .85rem; margin-top: 1.8rem; }
+    .mission-point {
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--orange);
+      border-radius: 7px;
+      background: var(--bg-2);
+    }
+    .mission-point strong { color: var(--orange-light); }
+    .mission-point span { display: block; color: var(--gray); font-size: .88rem; margin-top: .2rem; }
+    .mission-image-slot {
+      width: 100%;
+      aspect-ratio: 4/5;
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+
+    /* Programs */
+    .programs-header { display: flex; justify-content: space-between; align-items: end; gap: 2rem; margin-bottom: 3.3rem; }
+    .programs-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.6rem; }
+    .program-card { overflow: hidden; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-2); transition: transform .25s ease, border-color .25s ease; }
+    .program-card:hover { transform: translateY(-5px); border-color: rgba(255,107,26,.7); }
+    .program-copy { padding: 2rem; }
+    .program-kicker { display: flex; width: 50px; height: 50px; border-radius: 50%; align-items: center; justify-content: center; background: rgba(255,107,26,.12); font-size: 1.35rem; }
+    .program-card h3 { font-family: var(--display); font-size: 2.3rem; letter-spacing: .04em; margin-top: 1rem; }
+    .program-card p { color: var(--gray); }
+    .program-image-slot { width: 100%; aspect-ratio: 16/9; border-block: 1px solid var(--border); }
+    .program-image-slot > img { object-fit: cover; }
+    .program-placeholder { display: grid; place-items: center; width: 100%; aspect-ratio: 16/9; background: radial-gradient(circle, rgba(255,107,26,.13), transparent 55%), var(--bg-3); border-block: 1px solid var(--border); }
+    .program-placeholder span { color: var(--muted); text-transform: uppercase; letter-spacing: .14em; font-size: .75rem; }
+    .feature-list { list-style: none; padding: 0; display: grid; gap: .8rem; margin-top: 1.4rem; }
+    .feature-list li { display: grid; grid-template-columns: auto 1fr; gap: .7rem; color: var(--gray); font-size: .9rem; }
+    .feature-list li::before { content: "›"; color: var(--orange); font-size: 1.25rem; line-height: 1.2; }
+    .text-link { display: inline-flex; margin-top: 1.5rem; color: var(--orange-light); text-decoration: none; text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; font-weight: 700; }
+
+    /* Giving Back / Cause */
+    .cause-section {
+      background:
+        radial-gradient(circle at 85% 15%, rgba(255,107,26,.12), transparent 45%),
+        var(--bg-2);
+    }
+    .cause-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(3rem, 7vw, 6rem); align-items: center; }
+    .cause-copy p:not(.eyebrow):not(.cause-tagline) { color: var(--gray); margin-top: 1.2rem; }
+    .cause-tagline { color: var(--white); font-size: 1.1rem; margin-top: 1.3rem; }
+    .cause-tagline a { color: var(--orange-light); text-decoration: none; font-weight: 600; }
+    .cause-tagline a:hover { text-decoration: underline; }
+    .cause-copy .button { margin-top: 2rem; }
+    .cause-facts { display: grid; gap: 1rem; }
+    .cause-fact {
+      padding: 1.6rem 1.4rem;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--orange);
+      border-radius: 9px;
+      background: var(--bg-3);
+    }
+    .cause-fact strong { display: block; font-family: var(--display); font-size: 2.8rem; line-height: 1; color: var(--orange-light); }
+    .cause-fact span { display: block; color: var(--gray); font-size: .85rem; margin-top: .4rem; }
+
+    /* Expectations */
+    .expect-section { background: linear-gradient(180deg, var(--bg-2), var(--bg)); }
+    .expect-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; margin-top: 2.5rem; }
+    .expect-card { padding: 1.35rem; border: 1px solid var(--border); border-radius: 8px; background: rgba(255,255,255,.025); }
+    .expect-card strong { display: block; color: var(--orange-light); margin-bottom: .35rem; }
+    .expect-card p { color: var(--gray); font-size: .88rem; }
+
+    /* Testimonials */
+    .testimonials-section { background: var(--bg-2); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.2rem; margin-top: 3rem; }
+    .testimonial { padding: 1.65rem; border: 1px solid var(--border); border-radius: 9px; background: var(--bg-3); }
+    .stars { color: var(--orange); letter-spacing: .12em; font-size: .78rem; }
+    .testimonial blockquote { color: var(--gray); font-size: .9rem; margin: 1rem 0 1.3rem; }
+    .person { display: flex; align-items: center; gap: .75rem; }
+    .avatar { display: grid; place-items: center; width: 38px; height: 38px; flex: 0 0 auto; border-radius: 50%; background: linear-gradient(135deg, var(--orange), #ad3900); font-family: var(--display); }
+    .person strong { display: block; font-size: .86rem; }
+    .person span { display: block; color: var(--orange-light); font-size: .72rem; }
+
+    /* FAQ */
+    .faq-list { width: min(100%, 800px); margin-top: 2.5rem; display: grid; gap: .8rem; }
+    details { border: 1px solid var(--border); border-radius: 8px; background: var(--bg-2); }
+    summary { cursor: pointer; padding: 1.15rem 1.25rem; font-weight: 600; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; float: right; color: var(--orange); font-size: 1.2rem; }
+    details[open] summary::after { content: "−"; }
+    details p { color: var(--gray); padding: 0 1.25rem 1.2rem; }
+
+    /* Contact */
+    .contact-section { background: var(--bg); }
+    .contact-grid { display: grid; grid-template-columns: .9fr 1.2fr; gap: clamp(3rem, 7vw, 6rem); align-items: start; }
+    .contact-intro > p:not(.eyebrow) { color: var(--gray); margin-top: 1rem; }
+    .contact-list { display: grid; gap: 1rem; margin-top: 2rem; }
+    .contact-line { display: grid; grid-template-columns: 42px 1fr; gap: .85rem; align-items: center; }
+    .contact-icon { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: rgba(255,107,26,.1); }
+    .contact-line small { display: block; color: var(--orange-light); text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }
+    .contact-line a, .contact-line span { color: var(--gray); text-decoration: none; }
+    .contact-line a:hover { color: white; }
+
+    .contact-form { padding: clamp(1.3rem, 4vw, 2.5rem); border: 1px solid var(--border); border-radius: 10px; background: var(--bg-2); box-shadow: var(--shadow); }
+    .form-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1rem; }
+    .field { margin-bottom: 1rem; }
+    .field.full { grid-column: 1/-1; }
+    label { display: block; color: var(--gray); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .42rem; }
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      background: var(--bg-3);
+      color: var(--white);
+      padding: .82rem .9rem;
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--orange); outline: none; box-shadow: 0 0 0 3px rgba(255,107,26,.12); }
+    textarea { min-height: 125px; resize: vertical; }
+    .honeypot { position: absolute; left: -9999px; }
+    .form-note { color: var(--muted); font-size: .77rem; margin-top: .85rem; }
+    .form-status { min-height: 1.5rem; margin-top: .85rem; color: var(--gray); font-size: .88rem; }
+    .form-status.success { color: #70d894; }
+    .form-status.error { color: #ff8e8e; }
+    .form-submit { width: 100%; border: 0; }
+    .form-submit:disabled { opacity: .65; cursor: wait; transform: none; }
+
+    /* Footer */
+    footer { padding: 3rem 4%; text-align: center; background: var(--bg-2); border-top: 1px solid var(--border); }
+    .footer-brand { font-family: var(--display); font-size: 2rem; letter-spacing: .09em; }
+    .footer-brand span { color: var(--orange); }
+    .footer-copy { color: var(--muted); font-size: .76rem; margin-top: 1.2rem; }
+
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @media (max-width: 900px) {
+      .menu-button { display: block; }
+      .nav-links {
+        position: fixed;
+        inset: 76px 0 auto;
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: .5rem;
+        padding: 1.25rem 4% 1.6rem;
+        background: rgba(7,8,15,.98);
+        border-bottom: 1px solid var(--border);
+      }
+      .nav-links.open { display: flex; }
+      .nav-links a { display: block; padding: .75rem; text-align: center; }
+      .hero { grid-template-columns: 1fr; }
+      .hero-art { min-height: 62vw; order: -1; }
+      .hero-copy { min-height: auto; padding-top: 5.8rem; }
+      .hero-copy::after { display: none; }
+      .ball { width: 56px; }
+      .coach-grid, .mission-grid, .contact-grid, .cause-grid { grid-template-columns: 1fr; }
+      .photo-frame { max-width: 340px; }
+      .testimonials-grid { grid-template-columns: repeat(2,1fr); }
+      .expect-grid { grid-template-columns: repeat(2,1fr); }
+    }
+
+    @media (max-width: 640px) {
+      section { padding: 4.5rem 5%; }
+      .brand span { font-size: 1.1rem; }
+      .hero-art { min-height: 78vw; }
+      .hero-logo-slot { width: 125px; }
+      .hero-badge { display: none; }
+      .stats-inner { grid-template-columns: repeat(2,1fr); row-gap: 1.4rem; }
+      .programs-header { align-items: start; flex-direction: column; }
+      .programs-grid, .testimonials-grid, .expect-grid { grid-template-columns: 1fr; }
+      .highlights, .form-grid { grid-template-columns: 1fr; }
+      .field.full { grid-column: auto; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Underdog Hoops",
+    "description": "Affordable basketball coaching and free monthly youth camps in Frisco, Texas, created to expand access to sports and empower Indian and South Asian youth, while donating a portion of every fee to Good Sports.",
+    "telephone": "+1-945-208-3403",
+    "email": "reachunderdoghoops@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Frisco",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "areaServed": "Frisco, Texas",
+    "url": "https://YOUR-DOMAIN.com/"
+  }
+  </script>
+</head>
+<body>
+  <!--
+    ========================================================================
+    🟠 IMAGE FILE SETUP — READ THIS FIRST
+
+    Put these image files in the SAME FOLDER as index.html:
+      1. underdog-logo.png
+      2. coach-sahil.jpg
+      3. personal-training.jpg
+      4. camp-training.jpg
+      5. indian-community-sports.jpg
+
+    To use different filenames, search this file for: 🟠 IMAGE SLOT
+    Then change ONLY the value inside src="..." in that marked block.
+
+    Example:
+      <img src="my-new-photo.jpg" alt="Description of the photo">
+    ========================================================================
+  -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Underdog Hoops home">
+        <!-- 🟠 IMAGE SLOT 1: NAVIGATION LOGO — CHANGE src="underdog-logo.png" -->
+        <span class="image-slot nav-logo-slot">
+          <img src="underdog-logo.png" alt="" width="44" height="44" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+          <span class="image-fallback" hidden aria-hidden="true"><strong>UH</strong></span>
+        </span>
+        <!-- 🟠 END IMAGE SLOT 1 -->
+        <span>Underdog Hoops</span>
+      </a>
+
+      <button class="menu-button" id="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#coach">About</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#cause">Giving Back</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a class="nav-button" href="#contact">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <!-- 🟠 IMAGE SLOT 2: LARGE HERO LOGO — CHANGE src="underdog-logo.png" -->
+        <div class="image-slot hero-logo-slot">
+          <img class="hero-logo" src="underdog-logo.png" alt="Underdog Hoops logo" width="293" height="306" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+          <div class="image-fallback" hidden><strong>Add Your Logo</strong><code>src="underdog-logo.png"</code></div>
+        </div>
+        <!-- 🟠 END IMAGE SLOT 2 -->
+        <p class="eyebrow">Affordable Basketball Coaching · Frisco, Texas</p>
+        <h1 class="hero-title" id="hero-title">Welcome to<br><span>Underdog</span><br>Hoops</h1>
+        <p class="hero-lead">Build real basketball skills, confidence, and a stronger competitive mindset through affordable personal coaching and 4 free community camps every month.</p>
+        <div class="free-pill">Affordable Coaching · 4 Free Camps / Month</div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get Started</a>
+          <a class="button button-secondary" href="#programs">View Programs</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="court">
+          <span class="key key-top"></span>
+          <span class="key key-bottom"></span>
+        </div>
+        <div class="ball"></div>
+        <div class="hero-badge">
+          <small>Training milestone</small>
+          <strong>200+</strong>
+          <span>sessions completed in Frisco</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats" aria-label="Underdog Hoops highlights">
+      <div class="stats-inner">
+        <div class="stat"><strong>4×</strong><span>Free Camps Monthly</span></div>
+        <div class="stat"><strong>2023</strong><span>Established</span></div>
+        <div class="stat"><strong>10%</strong><span>Of Fees Donated</span></div>
+        <div class="stat"><strong>1:1</strong><span>Personal Coaching</span></div>
+      </div>
+    </div>
+
+    <section class="coach-section" id="coach">
+      <div class="container coach-grid">
+        <div class="photo-frame reveal">
+          <!-- 🟠 IMAGE SLOT 3: COACH PHOTO — CHANGE src="coach-sahil.jpg" -->
+          <div class="image-slot coach-image-slot">
+            <img src="coach-sahil.jpg" alt="Coach Sahil Prabhu" width="262" height="381" loading="lazy" decoding="async" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+            <div class="image-fallback" hidden><strong>Add Coach Photo</strong><code>src="coach-sahil.jpg"</code></div>
+          </div>
+          <!-- 🟠 END IMAGE SLOT 3 -->
+          <span class="photo-label">#41 · Point Guard</span>
+        </div>
+
+        <div class="coach-copy reveal">
+          <p class="eyebrow">Meet Your Coach</p>
+          <h2 class="section-title">Coach Sahil<br>Prabhu</h2>
+          <p>Coach Sahil founded Underdog Hoops in 2023 after nearly a decade of competitive basketball experience. He has started at point guard for his high school varsity team for three consecutive years and named a Top 10 Player in his school district. He also has the school record for assist in a game with 16.</p>
+          <p>His coaching approach combines detailed skill development with demanding, encouraging sessions that help young athletes expand what they believe they can accomplish on the court and beyond it.</p>
+          <p>Coaching is kept affordable so cost stays a small hurdle, not a wall—and a portion of every fee is donated so the impact reaches even further.</p>
+
+          <div class="highlights">
+            <div class="highlight"><strong>Background</strong><span>Nearly 10 years of competitive basketball</span></div>
+            <div class="highlight"><strong>Position</strong><span>Three-year varsity point guard</span></div>
+            <div class="highlight"><strong>Achievement</strong><span>School record: 16 assists in a game</span></div>
+            <div class="highlight"><strong>Philosophy</strong><span>Skill, confidence, and mentality</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-section" id="mission">
+      <div class="container mission-grid">
+        <div class="mission-copy reveal">
+          <p class="eyebrow">Why We Started</p>
+          <h2 class="section-title">More Indian Kids<br>In the Game</h2>
+          <p>Underdog Hoops was created in part to help more Indian and South Asian youth feel welcomed, confident, and represented in sports.</p>
+          <p>Our mission is to show families that athletics can grow alongside academics. Basketball can build discipline, leadership, health, friendships, resilience, and the confidence to take on challenges in every part of life.</p>
+          <p>This mission is rooted in the Indian community, but every session and camp is open to young athletes from all backgrounds.</p>
+
+          <div class="mission-points">
+            <div class="mission-point"><strong>Affordable, Not Out of Reach</strong><span>Coaching is priced to stay accessible, and four free community camps run every month so cost never sidelines a willing player.</span></div>
+            <div class="mission-point"><strong>Representation Matters</strong><span>Young Indian and South Asian athletes deserve to see people from their communities coaching, competing, and leading.</span></div>
+            <div class="mission-point"><strong>Sports Build More Than Skill</strong><span>The goal is stronger players, healthier habits, supportive friendships, and confident young people.</span></div>
+          </div>
+        </div>
+
+        <!-- 🟠 IMAGE SLOT 4: COMMUNITY / GROUP PHOTO — CHANGE src="indian-community-sports.jpg" -->
+        <div class="image-slot mission-image-slot reveal">
+          <img src="indian-community-sports.jpg" alt="Indian and South Asian youth participating in basketball and community sports" loading="lazy" decoding="async" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+          <div class="image-fallback" hidden><strong>Add Community Sports Photo</strong><code>src="indian-community-sports.jpg"</code></div>
+        </div>
+        <!-- 🟠 END IMAGE SLOT 4 -->
+      </div>
+    </section>
+
+    <section id="programs">
+      <div class="container">
+        <div class="programs-header">
+          <div>
+            <p class="eyebrow">What We Offer</p>
+            <h2 class="section-title">Coaching & Free Camps</h2>
+          </div>
+          <a class="button button-secondary" href="#contact">Get Started</a>
+        </div>
+
+        <div class="programs-grid">
+          <article class="program-card reveal">
+            <div class="program-copy">
+              <span class="program-kicker" aria-hidden="true">🏀</span>
+              <h3>Personal Coaching</h3>
+              <p>Affordable one-on-one sessions built around each player’s current skill level, needs, and goals.</p>
+              <span class="affordable-badge">Affordable</span>
+            </div>
+                        <!-- 🟠 IMAGE SLOT 5: PERSONAL TRAINING PHOTO — CHANGE src="personal-training.jpg" -->
+            <div class="image-slot program-image-slot">
+              <img src="personal-training.jpg" alt="Coach Sahil leading a free one-on-one basketball training session" loading="lazy" decoding="async" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+              <div class="image-fallback" hidden><strong>Add Personal Training Photo</strong><code>src="personal-training.jpg"</code></div>
+            </div>
+            <!-- 🟠 END IMAGE SLOT 5 -->
+            <div class="program-copy">
+              <ul class="feature-list">
+                <li>Low, family-friendly session pricing—exact rates shared on inquiry</li>
+                <li>A portion of every fee is donated to Good Sports</li>
+                <li>Dedicated one-on-one time for detailed skill assessment</li>
+                <li>Targeted drills designed to accelerate skill development</li>
+                <li>A customized approach based on strengths and growth areas</li>
+              </ul>
+              <a class="text-link program-select" href="#contact" data-interest="personal-training">Request Personal Coaching →</a>
+            </div>
+          </article>
+
+          <article class="program-card reveal">
+            <div class="program-copy">
+              <span class="program-kicker" aria-hidden="true">🏆</span>
+              <h3>Free Monthly Camps</h3>
+              <p>Four free, competitive, high-energy community camps every month to sharpen skills, decision-making, and confidence.</p>
+              <span class="free-badge">4 Free / Month</span>
+            </div>
+            <!-- 🟠 IMAGE SLOT 6: CAMP PHOTO — CHANGE src="camp-training.jpg" -->
+            <div class="image-slot program-image-slot">
+              <img src="camp-training.jpg" alt="Players participating in a free Underdog Hoops basketball camp" width="525" height="395" loading="lazy" decoding="async" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+              <div class="image-fallback" hidden><strong>Add Camp Photo</strong><code>src="camp-training.jpg"</code></div>
+            </div>
+            <!-- 🟠 END IMAGE SLOT 6 -->
+            <div class="program-copy">
+              <ul class="feature-list">
+                <li>No camp fee—four community camps hosted free every month</li>
+                <li>Two-hour sessions with a competitive, encouraging environment</li>
+                <li>Maximum of 10 players for a high coach-to-player ratio</li>
+                <li>Broad skill coverage: handles, shooting, footwork, and IQ</li>
+                <li>Registration and schedule shared before each camp</li>
+              </ul>
+              <a class="text-link program-select" href="#contact" data-interest="camps">Join the Next Free Camp →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cause-section" id="cause">
+      <div class="container cause-grid">
+        <div class="cause-copy reveal">
+          <p class="eyebrow">Giving Back</p>
+          <h2 class="section-title">We Play<br>For More</h2>
+          <p class="cause-tagline">10% of every coaching fee goes to <a href="https://www.goodsports.org/" target="_blank" rel="noopener">Good Sports</a> — giving every kid the chance to play.</p>
+          <p>A portion of every coaching fee at Underdog Hoops is donated to Good Sports, a nonprofit that provides brand-new sports equipment, apparel, and footwear to youth in high-need communities.</p>
+          <p>For too many kids, a missing pair of shoes or a worn-out ball is the reason they never get to play. Good Sports removes that barrier—so the underdog spirit that drives this program reaches far beyond one court in Frisco.</p>
+          <a class="button button-primary" href="https://www.goodsports.org/" target="_blank" rel="noopener">Learn About Good Sports</a>
+        </div>
+
+        <div class="cause-facts reveal">
+          <div class="cause-fact"><strong>8M+</strong><span>Kids reached nationwide</span></div>
+          <div class="cause-fact"><strong>$100M+</strong><span>In equipment donated</span></div>
+          <div class="cause-fact"><strong>1 in 3</strong><span>Kids priced out of sports Good Sports helps</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="expect-section" aria-labelledby="expect-title">
+      <div class="container">
+        <p class="eyebrow">Before You Reach Out</p>
+        <h2 class="section-title" id="expect-title">What to Expect</h2>
+        <p class="section-copy">Share the player’s age, current experience, and main goals. Coach Sahil will follow up with the best option and current availability.</p>
+
+        <div class="expect-grid">
+          <div class="expect-card"><strong>Cost</strong><p>Personal coaching is affordable, and 4 community camps run free every month.</p></div>
+          <div class="expect-card"><strong>Who It’s For</strong><p>Youth players from all backgrounds seeking stronger fundamentals, confidence, and community.</p></div>
+          <div class="expect-card"><strong>Location</strong><p>Training and camps are offered in the Frisco, Texas area. Exact details are shared during scheduling.</p></div>
+          <div class="expect-card"><strong>What to Bring</strong><p>Basketball shoes, water, and a willingness to work. Any additional instructions are sent before the session.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <p class="eyebrow">Player Feedback</p>
+        <h2 class="section-title">Testimonials</h2>
+        <p class="section-copy">Players describe the program as challenging, encouraging, and focused on both basketball development and mindset.</p>
+
+        <div class="testimonials-grid">
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“Sahil was a great coach in helping me improve at basketball. He showed a lot of passion and pushed me to keep developing my game.”</blockquote>
+            <div class="person"><span class="avatar">SP</span><div><strong>Siddarth P.</strong><span>Player, age 14</span></div></div>
+          </article>
+
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“Underdog Hoops helped me get better at the sport I love and helped me find more joy in it. Training also changed my mindset to a winning one.”</blockquote>
+            <div class="person"><span class="avatar">VB</span><div><strong>Vidhun B.</strong><span>Player, age 15</span></div></div>
+          </article>
+
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“The program helped elevate not only my skills, but also my mentality and approach to basketball. Sahil helped me work through skill blocks and hurdles.”</blockquote>
+            <div class="person"><span class="avatar">EZ</span><div><strong>Evan Z.</strong><span>Player, age 14</span></div></div>
+          </article>
+
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“After attending camp, I improved in areas I did not even realize needed attention, including hustle and knowing what to work on. I will definitely come back.”</blockquote>
+            <div class="person"><span class="avatar">YG</span><div><strong>Yeshwanth G.</strong><span>Player, age 14</span></div></div>
+          </article>
+
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“Coach Sahil taught me that basketball is not just about height—it is about skill and intelligence. His coaching helped me through middle school, high school, and AAU basketball.”</blockquote>
+            <div class="person"><span class="avatar">SS</span><div><strong>Sumedh S.</strong><span>Player</span></div></div>
+          </article>
+
+          <article class="testimonial reveal">
+            <div class="stars" aria-label="Five stars">★★★★★</div>
+            <blockquote>“Coach Sahil’s camps helped improve my ball handling, shooting, teamwork, confidence, and discipline through focused drills and coaching.”</blockquote>
+            <div class="person"><span class="avatar">AC</span><div><strong>Advaith C.</strong><span>Player</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <p class="eyebrow">Common Questions</p>
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="faq-list">
+          <details>
+            <summary>What ages and skill levels do you train?</summary>
+            <p>Underdog Hoops works with youth players at different stages of development. Include the player’s age and experience in your inquiry so Coach Sahil can recommend the right option.</p>
+          </details>
+          <details>
+            <summary>Where are sessions held?</summary>
+            <p>Sessions are held in the Frisco, Texas area. The exact facility and arrival details are confirmed during scheduling.</p>
+          </details>
+          <details>
+            <summary>How much does coaching cost?</summary>
+            <p>Personal coaching is kept affordable, and exact rates are shared when you reach out. On top of that, four community camps are hosted completely free every month.</p>
+          </details>
+          <details>
+            <summary>Where does the donation go?</summary>
+            <p>A portion of every coaching fee is donated to Good Sports, a nonprofit that provides sports equipment and gear to kids in high-need communities so more young athletes can play.</p>
+          </details>
+          <details>
+            <summary>Is Underdog Hoops only for Indian or South Asian players?</summary>
+            <p>No. The mission includes encouraging greater sports participation in the Indian and South Asian community, but training is open to young athletes from every background.</p>
+          </details>
+          <details>
+            <summary>How do the free camps work?</summary>
+            <p>Four free camps run each month. Details and sign-up information are shared before each one—use the form below and select “Free Monthly Camps” to be notified.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <p class="eyebrow">Get Started</p>
+          <h2 class="section-title">Request a Spot</h2>
+          <p>Tell us a little about the player and what they want to improve. Coach Sahil will follow up with current options and pricing.</p>
+
+          <div class="contact-list">
+            <div class="contact-line">
+              <span class="contact-icon" aria-hidden="true">⌖</span>
+              <div><small>Location</small><span>Frisco, Texas</span></div>
+            </div>
+            <div class="contact-line">
+              <span class="contact-icon" aria-hidden="true">✉</span>
+              <div><small>Email</small><a href="mailto:reachunderdoghoops@gmail.com">reachunderdoghoops@gmail.com</a></div>
+            </div>
+            <div class="contact-line">
+              <span class="contact-icon" aria-hidden="true">☎</span>
+              <div><small>Phone</small><a href="tel:+19452083403">(945) 208-3403</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Replace the Formspree URL below only if your verified form ID is different. -->
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xpwzdypk" method="POST" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="first-name">First Name</label>
+              <input id="first-name" name="first_name" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="field">
+              <label for="last-name">Last Name</label>
+              <input id="last-name" name="last_name" type="text" autocomplete="family-name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+            </div>
+            <div class="field full">
+              <label for="interest">Interested In</label>
+              <select id="interest" name="interest" required>
+                <option value="">Select a program</option>
+                <option value="personal-training">Personal Coaching</option>
+                <option value="camps">Free Monthly Camps</option>
+                <option value="both">Both / General Inquiry</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="message">Player Details and Goals</label>
+              <textarea id="message" name="message" placeholder="Player age, experience, goals, and preferred days or times" required></textarea>
+            </div>
+          </div>
+
+          <div class="honeypot" aria-hidden="true">
+            <label for="company">Leave this field blank</label>
+            <input id="company" name="company" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <input type="hidden" name="_subject" value="New Underdog Hoops coaching inquiry">
+          <button class="button button-primary form-submit" id="submit-button" type="submit">Send Inquiry</button>
+          <p class="form-note">By submitting, you agree to be contacted about this inquiry. Please do not include sensitive medical information.</p>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">UNDERDOG <span>HOOPS</span></div>
+    <p class="footer-copy">Affordable youth basketball coaching · 4 free camps every month · 10% of fees donated to Good Sports · Open to all backgrounds</p>
+    <p class="footer-copy">© <span id="year"></span> Underdog Hoops · Frisco, Texas · All rights reserved.</p>
+  </footer>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const header = document.getElementById("site-header");
+      const menuButton = document.getElementById("menu-button");
+      const navLinks = document.getElementById("nav-links");
+      const form = document.getElementById("contact-form");
+      const submitButton = document.getElementById("submit-button");
+      const formStatus = document.getElementById("form-status");
+      const interestSelect = document.getElementById("interest");
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      const updateHeader = () => header.classList.toggle("scrolled", window.scrollY > 40);
+      updateHeader();
+      window.addEventListener("scroll", updateHeader, { passive: true });
+
+      function closeMenu() {
+        navLinks.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open navigation");
+        document.body.classList.remove("menu-open");
+      }
+
+      menuButton.addEventListener("click", () => {
+        const willOpen = !navLinks.classList.contains("open");
+        navLinks.classList.toggle("open", willOpen);
+        menuButton.setAttribute("aria-expanded", String(willOpen));
+        menuButton.setAttribute("aria-label", willOpen ? "Close navigation" : "Open navigation");
+        document.body.classList.toggle("menu-open", willOpen);
+      });
+
+      navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", closeMenu));
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+          closeMenu();
+          menuButton.focus();
+        }
+      });
+
+      document.querySelectorAll(".program-select").forEach(link => {
+        link.addEventListener("click", () => {
+          interestSelect.value = link.dataset.interest || "";
+        });
+      });
+
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const revealItems = document.querySelectorAll(".reveal");
+
+      if (reduceMotion || !("IntersectionObserver" in window)) {
+        revealItems.forEach(item => item.classList.add("visible"));
+      } else {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: "0px 0px -40px" });
+        revealItems.forEach(item => observer.observe(item));
+      }
+
+      function setFormStatus(message, type = "") {
+        formStatus.textContent = message;
+        formStatus.className = `form-status ${type}`.trim();
+      }
+
+      form.addEventListener("submit", async event => {
+        event.preventDefault();
+        setFormStatus("");
+
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          setFormStatus("Please complete all required fields.", "error");
+          return;
+        }
+
+        const data = new FormData(form);
+        if (String(data.get("company") || "").trim()) return;
+
+        const originalLabel = submitButton.textContent;
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending…";
+
+        try {
+          const response = await fetch(form.action, {
+            method: "POST",
+            body: data,
+            headers: { Accept: "application/json" }
+          });
+
+          if (!response.ok) {
+            throw new Error("The form service returned an error.");
+          }
+
+          form.reset();
+          setFormStatus("Thanks—your inquiry was sent. Coach Sahil will follow up as soon as possible.", "success");
+        } catch (error) {
+          console.error(error);
+          setFormStatus("Your inquiry could not be sent. Please email reachunderdoghoops@gmail.com or call (945) 208-3403.", "error");
+        } finally {
+          submitButton.disabled = false;
+          submitButton.textContent = originalLabel;
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
